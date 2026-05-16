@@ -382,7 +382,7 @@ st.markdown("""
 st.markdown("---")
 st.image("ipark_dashboard.png", use_container_width=True)
 components.iframe(
-    "https://lookerstudio.google.com/embed/reporting/3c3a7b90-0012-427e-96eb-7e4568098130/page/uZsuF",
+    "https://datastudio.google.com/embed/reporting/0ffc56db-4831-4fa3-a055-9038edde1025/page/p_zrmznkfs1d",
     height=900,
     scrolling=True
 )
