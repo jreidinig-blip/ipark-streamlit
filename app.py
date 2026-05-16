@@ -1,4 +1,5 @@
 import streamlit as st
+import streamlit.components.v1 as components
 import pandas as pd
 import numpy as np
 import joblib
@@ -379,10 +380,12 @@ st.markdown("""
   Lebanese Risk Layer: Haidar & Nohra (2024) + Literature Review
 </div>""",unsafe_allow_html=True)
 st.markdown("---")
-st.header("📊 iPark Dashboard")
-
 st.image("ipark_dashboard.png", use_container_width=True)
-
+components.iframe(
+    "https://lookerstudio.google.com/embed/reporting/3c3a7b90-0012-427e-96eb-7e4568098130/page/uZsuF",
+    height=900,
+    scrolling=True
+)
 st.markdown("---")
 st.header("📚 Startup Viability Research")
 
