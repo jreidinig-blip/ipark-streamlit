@@ -378,3 +378,15 @@ st.markdown("""
   ML Model: Random Forest · AUC 80% · 923 global startups &nbsp;·&nbsp;
   Lebanese Risk Layer: Haidar & Nohra (2024) + Literature Review
 </div>""",unsafe_allow_html=True)
+st.markdown("---")
+st.header("📊 iPark Dashboard")
+
+st.image("ipark_dashboard.png", use_container_width=True)
+
+st.markdown("---")
+st.header("📚 Startup Viability Research")
+
+st.markdown("""
+This section is based on the iPark startup viability research notebook.
+Additional analytics, visualizations, and insights can be integrated here.
+""")
